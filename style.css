@@ -1,0 +1,56 @@
+
+body{
+    background-color: black;
+    color: white;
+ display: block;
+font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 25px;
+}
+
+header{
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(68, 162, 250);
+}
+.start{
+  background: rgba(83, 2, 2, 0.658);
+  display: flex;
+  justify-content: center;
+  unicode-bidi: isolate;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.cat{
+    padding-left: 20px;
+        padding-right: 20px;
+}
+.cat img{
+    opacity: 0.5;
+    height: 200px;
+}
+.cat img:hover{
+    opacity: 1;
+}
+
+.warpper{
+    margin-right: 5%;
+}
+img{
+    height: 200px;
+
+}
+.videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
